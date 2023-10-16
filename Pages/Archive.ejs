@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="css/Styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" defer src="/Javascript/Menu.js"></script>
+  <script type="text/javascript" defer src="/Javascript/HomeButton.js"></script>
+  <!--<script type="text/javascript" src="./Javascript/Footer.js"></script>-->
+
+  <title>Archive | Mutts</title>
+
+  <div class="background">
+    
+    <div class="home-button" >
+        <a href = '/Home'>
+            <div id="homepage-button"></div>
+        </a>
+      </div>
+ 
+      <div style = "padding-top: 30px;" ></div>
+            
+      <div style = "padding-top: 120px;" ></div>
+                  
+      <%- include('Menu.ejs')%>
+
+   <div style="margin-top: 10px;"></div>
+   
+  <header class="text-white center" style="padding-top: 25px;">
+    <div>
+      <h1>Archive</h1> 
+    </div>
+  </header>
+
+  <div style="margin-top: 75px;"></div>
+
+</head>
+<body> 
+
+  <main>
+    <article style="width: 80%; margin-left: 9.5%; color: white; background-color: #0707895b;">
+      <div class="container" style="height: 600px;">
+          <figure style="margin-top: 50px;">  
+            <figcaption style="margin-left: 18%;">
+                <h2>Arc 1</h2>
+            </figcaption> 
+            <img type="img"
+                src="/Images/Arc_cover_placeholder.jpg" alt="image" class="cover-image" width="300px">  
+            </img>
+          </figure>
+      <div style="margin-left: 45%; margin-top: 50px;">
+        <header>
+          <div>
+            <h2>Chapter 1</h2>
+          </div>
+        </header>
+        <div style="font-size: 17px;">
+          <ul style="list-style-type: none;">
+            <li>
+             <a href="/1.1">1.1</a> 
+            </li>
+            <li>
+             <a href="/1.2">1.2</a> 
+            </li>
+            <li>
+             <a href="/1.3">1.3</a> 
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </article>
+  </main>
+
+  <div style = "margin-top: 150px;"></div>
+
+  <footer class="footer">Footer</footer>
+
+  <div style = "padding-top: 50px;"></div>
+   
+
+  <!--<footer class = "footer">
+      <span id = "cc"></span>  
+  </footer>
+
+  <div style = "padding-top: 20px;"></div>
+
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <div id="license" style="border-width:0;"></div>   
+  </a>
+  <div class="text-white center">
+  <br />This work is licensed under a 
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>-->
+
+  </div>
+
+</body>
+</html>

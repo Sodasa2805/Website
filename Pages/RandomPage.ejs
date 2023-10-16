@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="/css/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d95064c4aa.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" defer src="/Javascript/Menu.js"></script>
+    <script type="text/javascript" defer src="/Javascript/TooltipClick.js"></script>
+    <!--<script type="text/javascript" src="/Javascript/Footer.js"></script>-->
+    <script type="text/javascript" defer src="/Javascript/Paginations.js"></script>
+    <script type="text/javascript" defer src="/Javascript/HomeButton.js"></script>
+    <script type="text/javascript" defer src="/Javascript/TableOfContent.js"></script>
+
+    <title>Chapter 1.2 | Mutts</title>
+
+    <div class="background">
+
+        <div class="home-button" >
+          <a href = '/Home'>
+              <div id="homepage-button"></div>
+          </a>
+        </div>
+      
+          <div style = "padding-top: 120px;" ></div>
+
+          <div style = "padding-top: 20px;" ></div>
+          
+        <%- include('Menu.ejs')%>
+
+        <div class ="pagination" style="padding-top: 40px;">
+            <div class ="pagination-left-arrow">
+                <a href="/1.1">
+                    <span id="left-arrow"></span>
+                </a>
+            </div> 
+            <div class ="pagination-right-arrow">
+                <a href="/1.3">
+                    <span id="right-arrow"></span>
+                </a>
+            </div>
+        </div> 
+
+        <%- include('SelectMenu.ejs')%> 
+
+</head>
+<body>
+  
+    <div class ="row-padding" >
+        <a href="/1.3">
+    <img
+        src="Images/Placeholder_two.jpg" alt="Eevee" class="image" width="700" 
+        click-tooltip-container>
+    </img>
+        </a>
+        
+        <div style="padding-top: 20px;"></div>
+
+        <div class="text-white row-padding center" style="margin: auto; font-size: 10px;">
+                <h2>
+                Lorem ipsum dolor sit amet,consectetur adipiscing elit, <br>
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
+                nisi ut aliquip ex ea commodo consequat.
+                </h2>
+        </div>
+    </div>
+
+    <div style = "padding-top: 50px;"></div>
+
+    <div style="float: right; padding-right: 10%; padding-top: 50px;">
+      <a href="/login">
+        <button>Login</button>
+      </a>
+    </div>
+
+    <div style="background-color: white;">
+
+    <iframe src="http://localhost:3000/posts/27eda7b0-290c-4ca3-804e-9e0ff9b7d523" allowtransparency="true" style="border: none; overflow: hidden; position: relative;" width="100%" height="300"></iframe>
+    
+    </div>  
+
+  <div style = "padding-top: 50px;"></div>
+
+  <footer class="footer">Footer</footer>
+
+  <div style = "padding-top: 50px;"></div>
+
+    <!--<footer>
+        <div class="footer">
+            <span id="cc"></span>
+        </div>  
+    </footer>
+
+    <div style = "padding-top: 20px;"></div>
+
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+        <div id="license" style="border-width:0;"></div>   
+    </a>
+    <div class="text-white center">
+    <br />This work is licensed under a 
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+    </div>-->
+
+    </div>
+
+</body>
+</html>
