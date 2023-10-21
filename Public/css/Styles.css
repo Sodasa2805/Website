@@ -76,7 +76,7 @@ select optgroup {text-align: left; padding-right: 30px;}
 .subnav .subnavbtn {font-size: 18px;  border: none;outline: none;color: white;padding: 14px 16px;background-color: inherit;font-family: inherit;margin: 0;}
 .subnav-content {display: none;position: absolute; left: 24.8%;background-color:#672972;width: 50%;z-index: 1; border: 3px solid white; border-radius: 4px;}
 .subnav-content a {float: left;color: white;text-decoration: none; text-align: center; width:auto;}
-.subnav:hover .subnav-content {display: flex; justify-content: space-between;}
+.subnav:hover .subnav-content {display: flex; justify-content:space-around;}
 .text-white,.hover-text-white:hover{color:#fff!important}
 .tooltip {position: absolute;width: 100px;padding: 5px 5px;border-radius: 1px;font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: center;color: #000000;background-color: #ffffff98;overflow: hidden;}
 .tooltip-click {position: fixed;width: 130px;padding: 5px 5px;border-radius: 1px;font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: center;color: #000000;background-color: #ffffff98;overflow: hidden;}
