@@ -37,18 +37,6 @@ app.get('/Characters/SC', (req, res) => {
     res.render('SC.ejs')
 })
 
-app.get('/Characters/Others', (req, res) => {
-    res.render('Others.ejs')
-})
-
-app.get('/Characters/Spoilers', (req, res) => {
-    res.render('Spoilers.ejs')
-})
-
-app.get('/Characters/AnB', (req, res) => {
-    res.render('AnB.ejs')
-})
-
 app.get('/About', (req, res) => {
     res.render('About.ejs')
 })
