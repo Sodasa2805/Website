@@ -2,84 +2,58 @@
 <html>
 <head>
 
-    <link rel="stylesheet" type="text/css" href="/css/Styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/d95064c4aa.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" defer src="/Javascript/Menu.js"></script>
-    <script type="text/javascript" defer src="/Javascript/TooltipClick.js"></script>
-    <script type="text/javascript" defer src="./Javascript/Footer.js"></script>
-    <script type="text/javascript" defer src="/Javascript/LeftArrow.js"></script>
-    <script type="text/javascript" defer src="/Javascript/HomeButton.js"></script>
-    <script type="text/javascript" defer src="/Javascript/TableOfContent.js"></script>
+  <link rel="icon" type="/image/x-icon" href="/Images/Mutts-logo.ico">  
+  <link rel="stylesheet" href="css/Styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" defer src="/Javascript/Menu.js"></script>
+  <script type="text/javascript" defer src="/Javascript/Footer.js"></script>
+  
+  <title>Home Page | Mutts</title>
 
-    <title>Chapter 1.3 | Mutts</title>
+  <div class="background">  
+ 
+      <header style="text-align: center; padding-top: 25px;">
+        <h1>Home page</h1> 
+      </header>
+    <div style="text-align: center; padding-top: 75px;"> 
+        <button class="begin-button" onclick="window.location.href = '/1.1';">Start Reading</button>
+    </div>
 
-    <div class="background">
-
-        <div class="home-button" >
-          <a href = '/Home'>
-              <div id="homepage-button"></div>
-          </a>
-        </div>
-      
-          <div style = "padding-top: 120px;" ></div>
+      <div style = "padding-top: 30px;" ></div>
+            
+      <div style = "padding-top: 120px;" ></div>
                   
-          <div style = "padding-top: 20px;" ></div>
-                  
-        <%- include('Menu.ejs')%>
-
-    <div class="pagination" style="padding-top: 40px;">
-      <div class="pagination-left-arrow">
-          <a href="/1.2">
-            <span id="left-arrow"></span>
-          </a>
-      </div>
-    </div> 
-    
-    <%- include('SelectMenu.ejs')%> 
+    <%- include('Menu.ejs')%>
 
 </head>
-<body> 
+<body>
 
-    <div class="row-padding">
-            <a href="#">
-        <img 
-            src="Images/Placeholder_three.jpg" alt="Image" class="image" width="700"
-            click-tooltip-container>
-        </img>
-            </a> 
+  <div style = "margin-top: 100px;"></div>
 
-          <div style="padding-top: 20px;"></div>
+  <div class="text-white center" style="margin: auto; font-size: 17px;">
+    <p>      
+        Lorem ipsum dolor sit amet,consectetur adipiscing elit, <br>
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
+        nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
 
-          <div class="text-white row-padding center" style="margin: auto; font-size: 10px;">
-                <h2>
-                  Lorem ipsum dolor sit amet,consectetur adipiscing elit, <br>
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> 
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
-                  nisi ut aliquip ex ea commodo consequat.
-                </h2>
-          </div>
-    </div>
+  <div style = "padding-top: 150px;"></div>
 
-    <div style = "padding-top: 150px;"></div>
-   
-    <footer>
-        <div class ="footer">
-            <span id="cc"></span>
-        </div> 
-    </footer>
+  <footer class = "footer">
+      <span id = "cc"></span>  
+  </footer>
 
-    <div style = "padding-top: 20px;"></div>
+  <div style = "padding-top: 20px;"></div>
 
-    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-        <div id="license" style="border-width:0;"></div>   
-    </a>
-    <div class="text-white center">
-    <br />This work is licensed under a 
-    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-    </div>
-
-    </div>
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <div id="license" style="border-width:0;"></div>   
+  </a>
+  <div class="text-white center">
+  <br />This work is licensed under a 
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+  </div>
 
 </body>
 </html>
